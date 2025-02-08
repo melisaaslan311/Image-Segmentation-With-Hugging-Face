@@ -4,7 +4,7 @@ This project focuses on image segmentation and calculates the Intersection over 
 Using a pre-trained Segformer model, it analyzes clothing images and compares the predicted segmentation with the ground truth masks. 👕👗
 
 # 🚀 Project Overview
-📂 Dataset: Image data is obtained from the train.csv file, which includes image IDs and encoded pixel masks.
+📂 Dataset: Image data is obtained from the train.csv file, which includes image IDs and encoded pixel masks.(https://www.kaggle.com/competitions/imaterialist-fashion-2020-fgvc7/data)
 🏷️ Labels: Category and attribute details are extracted from label_descriptions.json.
 🧠 Model: Utilizes a Segformer-based pre-trained image segmentation model.
 📊 IoU Calculation: Compares ground truth and predicted masks to compute IoU scores.
